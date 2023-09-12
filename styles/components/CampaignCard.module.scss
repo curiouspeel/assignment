@@ -1,0 +1,38 @@
+.cardContainer {
+  width: 19rem;
+  height: 32rem;
+}
+
+.cardBanner {
+  min-height: 9rem;
+  height: 9rem;
+  border-bottom: 1px solid lightgrey;
+  &:hover {
+    border: 1px solid lightgrey;
+  }
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.description {
+  min-height: 3rem;
+}
+
+.tag {
+  font-size: 14px;
+  white-space: pre;
+}
+
+.cardButton {
+  width: fit-content;
+}
+
+.truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
