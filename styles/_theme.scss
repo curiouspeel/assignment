@@ -1,0 +1,19 @@
+$primary: #ec612a;
+$secondary: #6a59e8;
+$dark: #c7c1c1;
+$light: #f9f9f9;
+$btn-primary-color: #ffffff;
+$btn-font-weight: 600;
+
+@import "~bootstrap/scss/bootstrap";
+
+.btn-primary {
+  @include button-variant(
+    $primary,
+    darken($primary, 7.5%),
+    $btn-primary-color,
+    lighten($primary, 5%),
+    lighten($primary, 10%),
+    $btn-primary-color
+  );
+}
